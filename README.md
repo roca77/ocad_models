@@ -9,7 +9,7 @@ to do
 ### V.1.2
 This second version of the model is focused mainly on the scars themselves, instead of the whole profile in the drawing. It's accuracy rate is more stable, and score higher on the validation image set.
 
-![Training plot](training_v1.2.jpeg)
+![Training plot](../Ocad/model_description_images/training_v1.2.jpeg)
 
 ## Front-end Preprocessing
 In this model, due to the dimension of the cropped scars I am trying with 120x120px; what this mean is that the line 22 in `predict.js` must be set to:
